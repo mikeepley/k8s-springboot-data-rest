@@ -23,7 +23,7 @@ spec:
           secretName: mysql-secret
       containers:
       - name: po-service
-        image: epleycontainerregistry.azurecrr.io/po-service:6
+        image: epleycontainerregistry.azurecrr.io/po-service:20181116.6
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
