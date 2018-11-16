@@ -115,6 +115,8 @@ public class PurchaseOrder {
           "Item=" + getItem() + ", " +
           "Customer=" + getCname() + ", " +
 	  "Quantity=" + getQuantity() + ", " +
+	  "discount=" + getDiscountAmount() + ", " +
+	  "total=" + getOrderTotal() + ", " +
 	  "Origin=" + getOrigin());
 	return(sb.toString());
     }
